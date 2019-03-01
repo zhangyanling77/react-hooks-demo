@@ -167,7 +167,8 @@ function App() {
       <Button type="primary" onClick={del}>减</Button>
 
       <h1>导航</h1>
-      <NavLink to="/about">关于我们</NavLink>
+      <NavLink to="/about" style={{ marginRight:20 }}>关于我们</NavLink>
+      <NavLink to="/other">其他信息</NavLink>
 
       <h1>useRef API</h1>
       {TextInputWithFocusButton()}
